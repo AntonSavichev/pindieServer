@@ -1,8 +1,4 @@
-const allowedCors = [
-    'https://practicum.yandex.ru',
-    'https://students-projects.ru',
-    'localhost:3001'
-];
+const allowedCors = ["https://askicoolfrontend.nomoredomainswork.ru"];
 
 function cors(req, res, next) {
     const { origin } = req.headers;
