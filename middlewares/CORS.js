@@ -1,3 +1,4 @@
+
 const allowedCors = ["https://askicoolfrontend.nomoredomainswork.ru"];
 
 function cors(req, res, next) {
